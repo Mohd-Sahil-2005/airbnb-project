@@ -1,0 +1,128 @@
+body{
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container{
+  flex: 1;
+}
+/* navbar */
+
+.fa-regular{
+  color:#fe424d;
+  font-size: 2rem;
+}
+
+.navbar-brand{
+  display:flex !important;
+  align-items: center !important;
+}
+
+.navbar-brand span {
+  color: #fe424d;
+  margin-left: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.navbar{
+  display: flex !important;
+  align-items: center !important;
+  height: 5rem;
+  background-color: white;
+} 
+.nav-link  {
+  color: #222222 !important;
+}
+
+/* footer */
+.f-info-links a{
+  text-decoration: none;
+  color: #222222;
+   margin-right: 0.5rem;
+}
+.f-info-links a:hover{
+  text-decoration: underline;
+}
+.f-info-links,.f-info-socials,.f-info-brand{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-info-socials i{
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+.f-info{
+  display: flex;
+  height: 8rem;
+  background-color: #ebebeb;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+  /* text-align: center; */
+}
+
+/* cards */
+.listing-card{
+  border: none !important;
+  margin-bottom: 2rem;
+}
+.card-img-top{
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-text p {
+ font-weight: 400 !important;
+}
+
+.listing-link{
+  text-decoration: none !important;
+}
+/* card effect */
+.card-img-overlay{
+  opacity: 0;
+}
+.card-img-overlay:hover{
+  opacity: 0.2;
+  background-color: white;
+}
+
+/* new page */
+
+.add-btn{
+  color: white !important;
+  background-color: #fe424d !important;
+  border: none;
+}
+
+/* edit page */
+.edit-btn{
+  color: white !important;
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+.edit-img{
+  height: 150px;
+  width: 150px;
+}
+
+/* show page */
+.show-img{
+  height: 30vh;
+}
+
+.btns{
+  display: flex;
+}
+
+.show-card{
+  padding-left:0;
+  padding-right:0;
+}
