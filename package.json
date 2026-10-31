@@ -1,8 +1,4 @@
 {
-  "engines":{
-    "node": "22.19.0"
-  },
-
   "name": "majorproject",
   "version": "1.0.0",
   "description": "",
@@ -15,12 +11,8 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.1",
-    "@mui/material": "^9.4.0",
-    "cloudinary": "^1.41.3",
+    "cloudinary": "^2.11.0",
     "connect-flash": "^0.1.1",
-    "connect-mongo": "^6.0.0",
     "dotenv": "^17.4.2",
     "ejs": "^6.0.1",
     "ejs-mate": "^4.0.0",
